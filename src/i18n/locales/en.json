@@ -1,0 +1,364 @@
+{
+  "common": {
+    "appName": "City Pulse",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "done": "Done",
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "close": "Close",
+    "share": "Share",
+    "search": "Search",
+    "clear": "Clear",
+    "refresh": "Refresh",
+    "noData": "No data available",
+    "tryAgain": "Try again",
+    "comingSoon": "Coming soon",
+    "notAvailable": "Not available",
+    "readMore": "Read more",
+    "readLess": "Read less"
+  },
+  "navigation": {
+    "home": "Home",
+    "events": "Events",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "search": "Search",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "displayName": "Display Name",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInWith": "Sign in with",
+    "biometric": {
+      "title": "Biometric Authentication",
+      "enablePrompt": "Enable biometric authentication for quick access",
+      "loginPrompt": "Authenticate with biometrics to sign in",
+      "enabled": "Biometric authentication has been enabled successfully",
+      "disabled": "Biometric authentication has been disabled",
+      "failed": "Biometric authentication failed. Please try again",
+      "notAvailable": "Biometric authentication is not available on this device",
+      "disableConfirm": "Are you sure you want to disable biometric authentication?"
+    },
+    "loginSuccess": "Login successful!",
+    "logoutSuccess": "Logged out successfully",
+    "registerSuccess": "Account created successfully!",
+    "invalidCredentials": "Invalid email or password",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordMismatch": "Passwords do not match",
+    "passwordStrength": {
+      "label": "Password strength:",
+      "tooShort": "Password must be at least {{minLength}} characters",
+      "needsUppercase": "Password must contain at least one uppercase letter",
+      "needsLowercase": "Password must contain at least one lowercase letter", 
+      "needsNumber": "Password must contain at least one number",
+      "needsSpecialChar": "Password must contain at least one special character (!@#$%^&*)",
+      "weak": "Weak",
+      "fair": "Fair", 
+      "good": "Good",
+      "strong": "Strong"
+    },
+    "displayNameRequired": "Display name is required",
+    "invalidEmail": "Please enter a valid email address",
+    "biometricNotAvailable": "Biometric authentication is not available on this device",
+    "biometricPrompt": "Use your fingerprint or face to authenticate"
+  },
+  "home": {
+    "title": "Discover Events",
+    "subtitle": "Find amazing events in your city",
+    "searchPlaceholder": "Search for events...",
+    "cityPlaceholder": "Enter city name",
+    "popularEvents": "Popular Events",
+    "upcomingEvents": "Upcoming Events",
+    "nearbyEvents": "Nearby Events",
+    "categories": "Categories",
+    "seeAll": "See All",
+    "noEventsFound": "No events found",
+    "searchHint": "Try searching with different keywords or city names",
+    "loadingEvents": "Loading events...",
+    "eventLoadError": "Failed to load events",
+    "refreshEvents": "Pull to refresh events"
+  },
+  "events": {
+    "details": "Event Details",
+    "date": "Date",
+    "time": "Time",
+    "venue": {
+      "title": "Venue",
+      "location": "Venue Location",
+      "getDirections": "Get Directions"
+    },
+    "price": "Price",
+    "category": "Category",
+    "description": "Description",
+    "moreInfo": "More Information",
+    "tickets": "Get Tickets",
+    "share": "Share Event",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "favoriteAdded": "Added to favorites",
+    "favoriteRemoved": "Removed from favorites",
+    "noDescription": "No description available",
+    "priceFrom": "From",
+    "priceTBA": "Price TBA",
+    "dateTime": {
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "thisWeek": "This week",
+      "nextWeek": "Next week",
+      "thisMonth": "This month",
+      "nextMonth": "Next month"
+    },
+    "status": {
+      "onSale": "On Sale",
+      "offSale": "Off Sale",
+      "canceled": "Canceled",
+      "cancelled": "Cancelled",
+      "postponed": "Postponed",
+      "rescheduled": "Rescheduled",
+      "soldOut": "Sold Out"
+    },
+    "map": {
+      "showOnMap": "Show on Map",
+      "getDirections": "Get Directions",
+      "mapNotAvailable": "Map not available"
+    }
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "empty": "No favorite events yet",
+    "emptySubtitle": "Events you favorite will appear here",
+    "removeAll": "Remove All",
+    "confirmRemoveAll": "Are you sure you want to remove all favorites?",
+    "removed": "Favorite removed",
+    "removedAll": "All favorites removed"
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "preferences": "Preferences",
+    "about": "About",
+    "support": "Support",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "language": "Language",
+    "notifications": "Notifications",
+    "biometric": "Biometric Login",
+    "darkMode": "Dark Mode",
+    "version": "Version",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "contactUs": "Contact Us",
+    "rateApp": "Rate App",
+    "shareApp": "Share App",
+    "profileUpdated": "Profile updated successfully",
+    "defaultCity": "Default City",
+    "favoriteGenres": "Favorite Genres"
+  },
+  "search": {
+    "title": "Search Events",
+    "recent": "Recent Searches",
+    "suggestions": "Suggestions",
+    "filters": "Filters",
+    "sortBy": "Sort By",
+    "dateRange": "Date Range",
+    "priceRange": "Price Range",
+    "applyFilters": "Apply Filters",
+    "clearFilters": "Clear Filters",
+    "noResults": "No results found",
+    "searchHistory": "Search History",
+    "clearHistory": "Clear History",
+    "popularSearches": "Popular Searches"
+  },
+  "categories": {
+    "all": "All Categories",
+    "music": "Music",
+    "sports": "Sports",
+    "artsTheatre": "Arts & Theatre",
+    "comedy": "Comedy",
+    "family": "Family",
+    "film": "Film",
+    "miscellaneous": "Miscellaneous",
+    "festivals": "Festivals",
+    "nightlife": "Nightlife",
+    "business": "Business",
+    "education": "Education"
+  },
+  "sort": {
+    "relevance": "Relevance",
+    "dateAscending": "Date (Earliest First)",
+    "dateDescending": "Date (Latest First)",
+    "priceAscending": "Price (Low to High)",
+    "priceDescending": "Price (High to Low)",
+    "nameAscending": "Name (A-Z)",
+    "nameDescending": "Name (Z-A)",
+    "distance": "Distance"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "apiError": "Something went wrong. Please try again.",
+    "noResults": "No events found. Try different search terms.",
+    "loadingFailed": "Failed to load data",
+    "saveFailed": "Failed to save data",
+    "deleteFailed": "Failed to delete data",
+    "updateFailed": "Failed to update data",
+    "permissionDenied": "Permission denied",
+    "locationError": "Unable to get your location",
+    "cameraError": "Unable to access camera",
+    "storageError": "Storage error occurred",
+    "validationError": "Please check your input",
+    "sessionExpired": "Session expired. Please login again."
+  },
+  "permissions": {
+    "location": {
+      "title": "Location Permission",
+      "message": "City Pulse needs access to your location to show nearby events.",
+      "grant": "Grant Permission",
+      "deny": "Not Now"
+    },
+    "camera": {
+      "title": "Camera Permission",
+      "message": "City Pulse needs access to your camera to take photos.",
+      "grant": "Grant Permission",
+      "deny": "Not Now"
+    },
+    "notifications": {
+      "title": "Notification Permission",
+      "message": "City Pulse would like to send you notifications about events.",
+      "grant": "Allow Notifications",
+      "deny": "Not Now"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "account": "Account",
+    "privacy": "Privacy",
+    "about": "About",
+    "language": "Language",
+    "notifications": "Notifications",
+    "biometric": "Biometric Authentication",
+    "dataUsage": "Data Usage",
+    "cacheSize": "Cache Size",
+    "clearCache": "Clear Cache",
+    "exportData": "Export Data",
+    "deleteAccount": "Delete Account",
+    "confirmDeleteAccount": "Are you sure you want to delete your account? This action cannot be undone.",
+    "accountDeleted": "Account deleted successfully"
+  },
+  "language": {
+    "title": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "select": "Select Language",
+    "changed": "Language changed successfully",
+    "restart": "Please restart the app to apply language changes"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "enabled": "Notifications Enabled",
+    "disabled": "Notifications Disabled",
+    "eventReminders": "Event Reminders",
+    "newEvents": "New Events",
+    "favoriteUpdates": "Favorite Event Updates",
+    "promotional": "Promotional Offers",
+    "settings": "Notification Settings"
+  },
+  "map": {
+    "title": "Event Location",
+    "loading": "Loading map...",
+    "error": "Map unavailable",
+    "getDirections": "Get Directions",
+    "openInMaps": "Open in Maps",
+    "distance": "Distance",
+    "walkingTime": "Walking time",
+    "drivingTime": "Driving time"
+  },
+  "share": {
+    "event": "Check out this amazing event: {{eventName}}",
+    "app": "Discover amazing events with City Pulse!",
+    "shareVia": "Share via",
+    "copyLink": "Copy Link",
+    "linkCopied": "Link copied to clipboard"
+  },
+  "date": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday",
+    "thisWeek": "This week",
+    "nextWeek": "Next week",
+    "thisMonth": "This month",
+    "nextMonth": "Next month",
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "weekdays": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    }
+  },
+  "time": {
+    "now": "Now",
+    "am": "AM",
+    "pm": "PM",
+    "hour": "hour",
+    "hours": "hours",
+    "minute": "minute",
+    "minutes": "minutes",
+    "second": "second",
+    "seconds": "seconds"
+  },
+  "splash": {
+    "tagline": "Discover. Experience. Remember.",
+    "loading": "Loading your city's pulse..."
+  },
+  "onboarding": {
+    "welcome": "Welcome to City Pulse",
+    "step1": {
+      "title": "Discover Events",
+      "description": "Find amazing events happening in your city and beyond"
+    },
+    "step2": {
+      "title": "Save Favorites",
+      "description": "Keep track of events you love and never miss out"
+    },
+    "step3": {
+      "title": "Stay Connected",
+      "description": "Get notified about new events and updates"
+    },
+    "getStarted": "Get Started",
+    "skip": "Skip"
+  }
+} 

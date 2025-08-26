@@ -1,0 +1,364 @@
+{
+  "common": {
+    "appName": "نبض المدينة",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "save": "حفظ",
+    "done": "تم",
+    "next": "التالي",
+    "back": "العودة",
+    "skip": "تخطي",
+    "close": "إغلاق",
+    "share": "مشاركة",
+    "search": "بحث",
+    "clear": "مسح",
+    "refresh": "تحديث",
+    "noData": "لا توجد بيانات متاحة",
+    "tryAgain": "حاول مرة أخرى",
+    "comingSoon": "قريباً",
+    "notAvailable": "غير متوفر",
+    "readMore": "اقرأ المزيد",
+    "readLess": "اقرأ أقل"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "events": "الفعاليات",
+    "favorites": "المفضلات",
+    "profile": "الملف الشخصي",
+    "search": "البحث",
+    "settings": "الإعدادات"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "register": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "displayName": "اسم العرض",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "signInWith": "تسجيل الدخول باستخدام",
+    "biometric": {
+      "title": "المصادقة البيومترية",
+      "enablePrompt": "تفعيل المصادقة البيومترية للوصول السريع",
+      "loginPrompt": "استخدم البصمة لتسجيل الدخول",
+      "enabled": "تم تفعيل المصادقة البيومترية بنجاح",
+      "disabled": "تم إيقاف المصادقة البيومترية",
+      "failed": "فشلت المصادقة البيومترية. يرجى المحاولة مرة أخرى",
+      "notAvailable": "المصادقة البيومترية غير متوفرة على هذا الجهاز",
+      "disableConfirm": "هل أنت متأكد من أنك تريد إيقاف المصادقة البيومترية؟"
+    },
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح",
+    "registerSuccess": "تم إنشاء الحساب بنجاح!",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+    "passwordMismatch": "كلمتا المرور غير متطابقتين",
+    "passwordStrength": {
+      "label": "قوة كلمة المرور:",
+      "tooShort": "يجب أن تكون كلمة المرور {{minLength}} أحرف على الأقل",
+      "needsUppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل",
+      "needsLowercase": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل",
+      "needsNumber": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل",
+      "needsSpecialChar": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل (!@#$%^&*)",
+      "weak": "ضعيفة",
+      "fair": "مقبولة",
+      "good": "جيدة",
+      "strong": "قوية"
+    },
+    "displayNameRequired": "اسم العرض مطلوب",
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "biometricNotAvailable": "المصادقة البيومترية غير متوفرة على هذا الجهاز",
+    "biometricPrompt": "استخدم بصمة الإصبع أو الوجه للمصادقة"
+  },
+  "home": {
+    "title": "اكتشف الفعاليات",
+    "subtitle": "اعثر على فعاليات مذهلة في مدينتك",
+    "searchPlaceholder": "البحث عن الفعاليات...",
+    "cityPlaceholder": "أدخل اسم المدينة",
+    "popularEvents": "الفعاليات الشائعة",
+    "upcomingEvents": "الفعاليات القادمة",
+    "nearbyEvents": "الفعاليات القريبة",
+    "categories": "الفئات",
+    "seeAll": "عرض الكل",
+    "noEventsFound": "لم يتم العثور على فعاليات",
+    "searchHint": "جرب البحث بكلمات مفتاحية مختلفة أو أسماء مدن",
+    "loadingEvents": "تحميل الفعاليات...",
+    "eventLoadError": "فشل في تحميل الفعاليات",
+    "refreshEvents": "اسحب لتحديث الفعاليات"
+  },
+  "events": {
+    "details": "تفاصيل الفعالية",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "venue": {
+      "title": "المكان",
+      "location": "موقع المكان",
+      "getDirections": "الحصول على الاتجاهات"
+    },
+    "price": "السعر",
+    "category": "الفئة",
+    "description": "الوصف",
+    "moreInfo": "معلومات إضافية",
+    "tickets": "شراء التذاكر",
+    "share": "مشاركة الفعالية",
+    "addToFavorites": "إضافة للمفضلات",
+    "removeFromFavorites": "إزالة من المفضلات",
+    "favoriteAdded": "تمت الإضافة للمفضلات",
+    "favoriteRemoved": "تمت الإزالة من المفضلات",
+    "noDescription": "لا يوجد وصف متاح",
+    "priceFrom": "من",
+    "priceTBA": "السعر سيعلن لاحقاً",
+    "dateTime": {
+      "today": "اليوم",
+      "tomorrow": "غداً",
+      "thisWeek": "هذا الأسبوع",
+      "nextWeek": "الأسبوع القادم",
+      "thisMonth": "هذا الشهر",
+      "nextMonth": "الشهر القادم"
+    },
+    "status": {
+      "onSale": "متاح للبيع",
+      "offSale": "غير متاح للبيع",
+      "canceled": "ملغي",
+      "cancelled": "ملغي",
+      "postponed": "مؤجل",
+      "rescheduled": "معاد جدولته",
+      "soldOut": "نفدت التذاكر"
+    },
+    "map": {
+      "showOnMap": "عرض على الخريطة",
+      "getDirections": "الحصول على الاتجاهات",
+      "mapNotAvailable": "الخريطة غير متوفرة"
+    }
+  },
+  "favorites": {
+    "title": "مفضلاتي",
+    "empty": "لا توجد فعاليات مفضلة بعد",
+    "emptySubtitle": "الفعاليات التي تفضلها ستظهر هنا",
+    "removeAll": "إزالة الكل",
+    "confirmRemoveAll": "هل أنت متأكد من أنك تريد إزالة جميع المفضلات؟",
+    "removed": "تمت إزالة المفضلة",
+    "removedAll": "تمت إزالة جميع المفضلات"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "personalInfo": "المعلومات الشخصية",
+    "preferences": "التفضيلات",
+    "about": "حول",
+    "support": "الدعم",
+    "editProfile": "تعديل الملف الشخصي",
+    "changePassword": "تغيير كلمة المرور",
+    "language": "اللغة",
+    "notifications": "الإشعارات",
+    "biometric": "تسجيل الدخول بالبصمة",
+    "darkMode": "الوضع الليلي",
+    "version": "الإصدار",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "contactUs": "تواصل معنا",
+    "rateApp": "تقييم التطبيق",
+    "shareApp": "مشاركة التطبيق",
+    "profileUpdated": "تم تحديث الملف الشخصي بنجاح",
+    "defaultCity": "المدينة الافتراضية",
+    "favoriteGenres": "الأنواع المفضلة"
+  },
+  "search": {
+    "title": "البحث عن الفعاليات",
+    "recent": "عمليات البحث الأخيرة",
+    "suggestions": "اقتراحات",
+    "filters": "المرشحات",
+    "sortBy": "ترتيب حسب",
+    "dateRange": "نطاق التاريخ",
+    "priceRange": "نطاق السعر",
+    "applyFilters": "تطبيق المرشحات",
+    "clearFilters": "مسح المرشحات",
+    "noResults": "لم يتم العثور على نتائج",
+    "searchHistory": "تاريخ البحث",
+    "clearHistory": "مسح التاريخ",
+    "popularSearches": "عمليات البحث الشائعة"
+  },
+  "categories": {
+    "all": "جميع الفئات",
+    "music": "الموسيقى",
+    "sports": "الرياضة",
+    "artsTheatre": "الفنون والمسرح",
+    "comedy": "الكوميديا",
+    "family": "العائلة",
+    "film": "الأفلام",
+    "miscellaneous": "متنوع",
+    "festivals": "المهرجانات",
+    "nightlife": "الحياة الليلية",
+    "business": "الأعمال",
+    "education": "التعليم"
+  },
+  "sort": {
+    "relevance": "الصلة",
+    "dateAscending": "التاريخ (الأقرب أولاً)",
+    "dateDescending": "التاريخ (الأبعد أولاً)",
+    "priceAscending": "السعر (من الأقل للأعلى)",
+    "priceDescending": "السعر (من الأعلى للأقل)",
+    "nameAscending": "الاسم (أ-ي)",
+    "nameDescending": "الاسم (ي-أ)",
+    "distance": "المسافة"
+  },
+  "errors": {
+    "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك.",
+    "apiError": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "noResults": "لم يتم العثور على فعاليات. جرب مصطلحات بحث مختلفة.",
+    "loadingFailed": "فشل في تحميل البيانات",
+    "saveFailed": "فشل في حفظ البيانات",
+    "deleteFailed": "فشل في حذف البيانات",
+    "updateFailed": "فشل في تحديث البيانات",
+    "permissionDenied": "تم رفض الإذن",
+    "locationError": "غير قادر على الحصول على موقعك",
+    "cameraError": "غير قادر على الوصول للكاميرا",
+    "storageError": "حدث خطأ في التخزين",
+    "validationError": "يرجى التحقق من المدخلات",
+    "sessionExpired": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى."
+  },
+  "permissions": {
+    "location": {
+      "title": "إذن الموقع",
+      "message": "يحتاج نبض المدينة للوصول إلى موقعك لإظهار الفعاليات القريبة.",
+      "grant": "منح الإذن",
+      "deny": "ليس الآن"
+    },
+    "camera": {
+      "title": "إذن الكاميرا",
+      "message": "يحتاج نبض المدينة للوصول إلى الكاميرا لالتقاط الصور.",
+      "grant": "منح الإذن",
+      "deny": "ليس الآن"
+    },
+    "notifications": {
+      "title": "إذن الإشعارات",
+      "message": "يود نبض المدينة إرسال إشعارات لك حول الفعاليات.",
+      "grant": "السماح بالإشعارات",
+      "deny": "ليس الآن"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "general": "عام",
+    "account": "الحساب",
+    "privacy": "الخصوصية",
+    "about": "حول",
+    "language": "اللغة",
+    "notifications": "الإشعارات",
+    "biometric": "المصادقة البيومترية",
+    "dataUsage": "استخدام البيانات",
+    "cacheSize": "حجم ذاكرة التخزين المؤقت",
+    "clearCache": "مسح ذاكرة التخزين المؤقت",
+    "exportData": "تصدير البيانات",
+    "deleteAccount": "حذف الحساب",
+    "confirmDeleteAccount": "هل أنت متأكد من أنك تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء.",
+    "accountDeleted": "تم حذف الحساب بنجاح"
+  },
+  "language": {
+    "title": "اللغة",
+    "english": "English",
+    "arabic": "العربية",
+    "select": "اختر اللغة",
+    "changed": "تم تغيير اللغة بنجاح",
+    "restart": "يرجى إعادة تشغيل التطبيق لتطبيق تغييرات اللغة"
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "enabled": "الإشعارات مفعلة",
+    "disabled": "الإشعارات معطلة",
+    "eventReminders": "تذكيرات الفعاليات",
+    "newEvents": "فعاليات جديدة",
+    "favoriteUpdates": "تحديثات الفعاليات المفضلة",
+    "promotional": "العروض الترويجية",
+    "settings": "إعدادات الإشعارات"
+  },
+  "map": {
+    "title": "موقع الفعالية",
+    "loading": "تحميل الخريطة...",
+    "error": "الخريطة غير متوفرة",
+    "getDirections": "الحصول على الاتجاهات",
+    "openInMaps": "فتح في الخرائط",
+    "distance": "المسافة",
+    "walkingTime": "وقت المشي",
+    "drivingTime": "وقت القيادة"
+  },
+  "share": {
+    "event": "اطلع على هذه الفعالية الرائعة: {{eventName}}",
+    "app": "اكتشف فعاليات مذهلة مع نبض المدينة!",
+    "shareVia": "مشاركة عبر",
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم نسخ الرابط إلى الحافظة"
+  },
+  "date": {
+    "today": "اليوم",
+    "tomorrow": "غداً",
+    "yesterday": "أمس",
+    "thisWeek": "هذا الأسبوع",
+    "nextWeek": "الأسبوع القادم",
+    "thisMonth": "هذا الشهر",
+    "nextMonth": "الشهر القادم",
+    "months": {
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "مارس",
+      "april": "أبريل",
+      "may": "مايو",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر"
+    },
+    "weekdays": {
+      "sunday": "الأحد",
+      "monday": "الإثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت"
+    }
+  },
+  "time": {
+    "now": "الآن",
+    "am": "ص",
+    "pm": "م",
+    "hour": "ساعة",
+    "hours": "ساعات",
+    "minute": "دقيقة",
+    "minutes": "دقائق",
+    "second": "ثانية",
+    "seconds": "ثوانٍ"
+  },
+  "splash": {
+    "tagline": "اكتشف. اختبر. تذكر.",
+    "loading": "تحميل نبض مدينتك..."
+  },
+  "onboarding": {
+    "welcome": "أهلاً بك في نبض المدينة",
+    "step1": {
+      "title": "اكتشف الفعاليات",
+      "description": "اعثر على فعاليات مذهلة تحدث في مدينتك وخارجها"
+    },
+    "step2": {
+      "title": "احفظ المفضلات",
+      "description": "تتبع الفعاليات التي تحبها ولا تفوت أي شيء"
+    },
+    "step3": {
+      "title": "ابق على اتصال",
+      "description": "احصل على إشعارات حول الفعاليات الجديدة والتحديثات"
+    },
+    "getStarted": "ابدأ الآن",
+    "skip": "تخطي"
+  }
+} 
